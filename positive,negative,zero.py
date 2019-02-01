@@ -1,4 +1,4 @@
-a = input("Enter a number")
+a = input()
 if a<0:
     print("a is negative")
 elif a==0:
