@@ -1,7 +1,7 @@
-a = input()
-if a<0:
-    print("a is negative")
-elif a==0:
-    print ("a is zero")
+a = raw_input()
+if (a<0):
+    print("Negative")
+elif (a==0):
+    print ("zero")
 else:
-    print ("a is positive")
+    print ("positive")
