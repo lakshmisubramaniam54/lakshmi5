@@ -1,4 +1,4 @@
-input=raw_input("Enter a string\n").lower()
+input=raw_input().lower()
 words=input.split(' ')
 capitalized= []
 for woed in words:
