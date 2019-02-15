@@ -7,4 +7,4 @@ if ch.isalpha():
   else:
       print("Consonant")
 else:
-`   print("Invalid")
+     print("Invalid")
