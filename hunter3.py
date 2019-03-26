@@ -1,12 +1,13 @@
-a=int(input())
-b=list(map(int,input().split()))
-c=[]
+#lakshmi
+n1=int(input())
+n2=list(map(int,input().split()))
+n3=[]
 flag=0
-for i in range(0,a):
-  if i==b[i]:
-    c.append(i)
+for i in range(0,n1):
+  if i==n2[i]:
+    n3.append(i)
     flag=1
 if flag==1:
-  print(*c)
+  print(*n3)
 else:
   print('-1')
