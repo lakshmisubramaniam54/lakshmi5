@@ -5,7 +5,7 @@ b=[]
 l=[0]*10
 for i in range(0,len(n1)):
     l[n1[i]]+=1
-a=max(1)
+a=max(l)
 for i in range(0,len(1)):
     if a==l[i]:
         b.append(i)
