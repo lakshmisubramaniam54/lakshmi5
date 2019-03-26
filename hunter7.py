@@ -1,10 +1,10 @@
 #lakshmi
-n1=int(input())
-n2=list(map(int,input().split()))
+a=int(input())
+b=list(map(int,input().split()))
 c=[]
-for i in range(0,n1):
-  if i%2==0 and n2[i]%2!=0:
-    c.append(n2[i])
-  elif i%2!=0 and n2[i]%2==0:
-    c.append(n2[i])
+for i in range(0,a):
+  if i%2==0 and b[i]%2!=0:
+    c.append(b[i])
+  elif i%2!=0 and b[i]%2==0:
+    c.append(b[i])
 print(*c)
