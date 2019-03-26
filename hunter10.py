@@ -10,8 +10,8 @@ if a>b:
       flag=0
       break
     if flag==1:
-      print("YES")
+      print('YES')
     else:
-      print("NO")
+      print('NO')
 else:
-  print("NO")  
+  print('NO')  
