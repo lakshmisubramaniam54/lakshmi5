@@ -1,11 +1,9 @@
 #lakshmi
-nq= input().split()
-n = int(nq[0])
-q = int(nq[1])
-
-in_nums = list(map(int, input().split()))
-
-for _ in range(q):
-    u, v = map(int, input().split())
-    s = sum(in_nums[u-1:v])
+amu,Q=map(int,(raw_input()).split())
+l=list(map(int,(raw_input()).split()))
+for i in range(0,Q):
+    U,V=map(int,(raw_input()).split())
+    s=0
+    for j in range(U-1,V):
+        s=s+l[j]
     print(s)
