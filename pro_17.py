@@ -1,3 +1,4 @@
+#lakshmi
 manp,sanp=map(int,input().split())
 arrayp=list(map(int,input().split()))
 ranp=0
