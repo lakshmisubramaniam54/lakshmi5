@@ -1,13 +1,18 @@
 #lakshmi
-manp,sanp=map(int,input().split())
-arrayp=list(map(int,input().split()))
-ranp=0
-for i in range(len(arrayp)):
-	for j in range(i+1,len(arrayp)):
-		if (arrayp[i]+arrayp[j]==sanp):
-			ranp+=1
-			break
-if(ranp):
-	print("yes")
+x,y=map(int,input().split())
+m=list(map(int,input().split()))
+m.sort()
+m.reverse()
+s=y
+z=0
+for i in m:
+    if(s>=i):
+        no=int(s/i)
+        z=z+no
+        s=s-no*i
+    if s==0:
+        break
+if(s==0):
+   print(z)
 else:
-	print("no")
+   print("it's not posiible to select coins in such a way that they sum upto",S)        
